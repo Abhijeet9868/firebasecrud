@@ -1,3 +1,11 @@
 .userOuter{
     background-color: aquamarine;
+    width: 40%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
 }

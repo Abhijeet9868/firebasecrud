@@ -57,12 +57,14 @@ function App() {
       />
 
       <button onClick={createUser} >Create User</button>
-
-      {users.map((user) => {
+      
+      <div className="container">
+        {users.map((user) => {
         return (
           <User user={user}/>
         )
       })}
+        </div>
 
     </div>
   );
